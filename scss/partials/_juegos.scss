@@ -1,0 +1,180 @@
+
+/*--JUEGOS-----------------------------------------------------------------------------*/
+.juegosrecomendados{
+    margin-top: 180px;
+    text-align: center;
+    color: rgb(129, 129, 129);
+    border-bottom: solid 1px rgb(129, 129, 129);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+    .juegosrecomendados{
+        margin-top: 180px;
+    }
+}
+/*----------------------------------------*/
+
+.gridpadre{
+    display: grid;
+    grid-template-areas:
+    "foto1 foto1 foto1 foto1 foto1"
+    "foto12 foto12 foto12 foto2 foto2"
+    "foto5 foto5 foto3 foto3 foto3"
+    "foto4 foto4 foto4 foto4 foto4"
+    "foto6 foto6 foto6 foto6 foto6"
+    "gta   gta   gta   gta   gta"
+    "foto7 foto8 foto9 foto10 foto11";
+    margin: 5px;
+}
+
+
+
+/*--Imagen1-------------------------------*/
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once, .doce{
+    margin: 5px;
+    max-width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*----------------------------------------*/
+
+/*--Imagen1-------------------------------*/
+.uno{
+    background-image:url(../img/juego1.jpg);
+    grid-area: foto1;
+}
+.cod{
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.474);
+    }
+/*----------------------------------------*/
+
+/*--Imagen2-------------------------------*/
+.dos{
+    background-image:url(../img/juego2.jfif);
+    grid-area: foto2;
+}
+.minecraft{
+text-align: center;
+margin-top: 130px;
+color: white;
+font-family: 'Press Start 2P', cursive;
+font-size: 200%;
+background-color: rgba(0, 0, 0, 0.474);
+}
+/*----------------------------------------*/
+
+/*--Imagen3-------------------------------*/
+.tres{
+    background-image:url(../img/juego3.jpg);
+    grid-area: foto3;
+}
+.elder{
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.474);
+    }
+/*----------------------------------------*/
+
+/*--Imagen4-------------------------------*/
+.cuatro{
+    background-image:url(../img/juego4.jfif);
+    grid-area: foto4;
+}
+.needforspeed{
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.474);
+    }
+/*----------------------------------------*/
+
+/*--Imagen5-------------------------------*/
+.cinco{
+    background-image:url(../img/juego5.jpg);
+    grid-area: foto5;
+}
+.metro{
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.474);
+    }
+/*----------------------------------------*/
+
+/*--Imagen6-------------------------------*/
+.seis{
+    background-image:url(../img/juego6.jfif);
+    grid-area: foto6;
+}
+.fornite{
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.474);
+    }
+/*----------------------------------------*/
+.siete{
+    background-image:url(../img/juego7.jfif);
+    grid-area: foto7;
+   
+}
+.ocho{
+    background-image:url(../img/juego8.jfif);
+    grid-area: foto8;
+   
+}
+.nueve{
+    background-image:url(../img/juego9.jpg);
+    grid-area: foto9;
+ 
+}
+.diez{
+    background-image:url(../img/juego10.jfif);
+    grid-area: foto10;
+
+}
+.once{
+    background-image:url(../img/juego11.jfif);
+    grid-area: foto11; 
+}
+.doce{
+    background-image:url(../img/juego12.jfif);
+    grid-area: foto12; 
+}
+.dr{
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.474);
+    }
+/*--Imagen6-------------------------------*/
+.gta{
+text-align: center;
+color: white;
+font-family: 'Press Start 2P', cursive;
+font-size: 200%;
+background-color: rgba(0, 0, 0, 0.474);
+grid-area: gta;
+    }   
+/*----------------------------------------*/
+
+/*-------------------------------------------------------------------------------------*/
